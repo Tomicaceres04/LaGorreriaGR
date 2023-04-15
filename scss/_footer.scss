@@ -1,0 +1,35 @@
+/* Footer */
+footer{
+    color: #fff;
+    background: rgba(44,62,80,0.8);
+}
+.caja-footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.cajita-footer{
+    display: flex;
+    flex-direction: column;
+}
+.iconos{
+    max-height: 40px;
+}
+.logo-footer{
+    position: relative;
+    width: 150px;
+    display: flex;
+    align-self: center;
+}
+.footer-carrousel{
+    object-fit: cover;
+    width: 100vw;
+    height: 15vh;
+}
+.lista__footer{
+    list-style: none;
+}
+.link-decoration{
+    color: #fff;
+    text-decoration: none;
+}

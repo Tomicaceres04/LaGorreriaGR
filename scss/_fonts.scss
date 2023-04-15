@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates&family=Mulish:ital,wght@1,500&family=Open+Sans&family=Oswald&family=Plus+Jakarta+Sans&display=swap');
+$mainfont:'Plus Jakarta Sans', sans-serif;
+$tittlefont:'Oswald', sans-serif;
+$tercerfont:'Mulish', sans-serif;
+.titulo__font{
+    font-family: $mainfont;
+    font-size: 28px;
+    font-weight: bolder;
+}
+.subtitulo__font{
+    font-family: $mainfont;
+    font-style: italic;
+    font-size: 23px;
+}
+.subtitulo__font--preg{
+    font-family: $mainfont;
+    font-size: 13px;
+}
+.parrafo__font{
+    font-family: $mainfont;
+    font-size: 14px;
+}
+.subtitulo__index{
+    font-family: $tercerfont;
+    font-size: 13px;
+    font-style: italic;
+}
+.titulos-footer{
+    font-family: $tercerfont;
+    font-size: 18px;
+    font-weight: bold;
+}
+.precio{
+    font-size: 20px;
+    font-family: $tittlefont;
+}
+.text__card{
+    font-size: 14px;
+    font-weight: bold;
+    font-family: $mainfont;
+}
+.precio__cou{
+    font-family: $tercerfont;
+    font-size: 12px;
+}
+.subtitulos__accordion{
+    font-size: 22px;
+}

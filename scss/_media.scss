@@ -1,0 +1,23 @@
+@media (min-width:768px){
+    .caja-footer{
+        flex-direction: row;
+    }
+    .footer-carrousel{
+        height: 20vh;
+    }
+    .logo-footer{
+        margin-top: 15px;
+    }
+}
+@media (max-width:768px){
+    .conteiner__carousel{
+        height: 260px;
+    }
+}
+
+@media (min-width:1200px){
+    .logo-footer{
+        margin: 5px;
+        width: 250px;
+    }
+}

@@ -1,0 +1,40 @@
+/* Figuras de destacado */
+.card_section{
+    box-shadow: $boxShadow;
+    &:hover{
+        box-shadow: 1px 1px 20px #2d2d2d;
+    }
+}
+.card__ani--des{
+    transition: all 300ms;
+    &:hover{
+        transform: scale(1.04);
+    }
+}
+.carta-obv{
+    object-fit: cover;
+    height: 550px;
+}
+//Accordion
+.acordion__quienes{
+    font-size: 18px;
+}
+.acordion__quienes--p{
+    font-size: 16px;
+}
+// Termina Acordion
+.accordion__button {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: var(--bs-accordion-btn-padding-y) var(--bs-accordion-btn-padding-x);
+    font-family: $tercerfont;
+    color: var(--bs-accordion-btn-color);
+    text-align: left;
+    background-color: var(--bs-accordion-btn-bg);
+    border: 0;
+    border-radius: 0;
+    overflow-anchor: none;
+    transition: var(--bs-accordion-transition);
+}
