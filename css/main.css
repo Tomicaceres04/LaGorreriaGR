@@ -68,6 +68,11 @@ html {
   font-size: 22px;
 }
 
+.listadropdown {
+  color: rgba(0, 0, 0, 0.6509803922);
+  text-decoration: none;
+}
+
 /* Footer */
 footer {
   color: #fff;
